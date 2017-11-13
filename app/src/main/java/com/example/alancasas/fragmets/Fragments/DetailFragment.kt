@@ -27,7 +27,7 @@ class DetailFragment() : Fragment() {
         return rootView
     }
 
-    fun renderText (text: String){
+    fun renderText (text: String?){
         detailTextView?.text = text
     }
 
